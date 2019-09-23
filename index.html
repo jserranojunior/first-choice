@@ -3,10 +3,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-<div class="container-fluid">
+<div class="container">
     <div class="row justify-content-center">
-        <div class="col-8 bg-light">
-            <div class="row bg-dark margin-nav-topo">
+        <div class="col-12 bg-light">
+            <div class="row">
+                
+                        <img class="img-fluid banner-first" src="./assets/img/banner.png">
+                
+            </div>
+            <!-- <div class="row bg-dark margin-nav-topo">
                 
                     <div class="col-12 col-12 bg-dark">
                             <div class="row bg-danger row-logo">
@@ -18,18 +23,13 @@
                             </div>
                         </div>
                 </div>
-            </div>
-            <div class="row row-mitsubishi">
-                <div class="col-6"></div>
-                <div class="col-6">
-                        <h2 class=" mitsu-text font-weight-bold">
-                                <span class="">2008 2009 2010</span> <br>
-                            </h2>
-                </div>
+            </div> -->
+            <div class="row row-mitsubishi">                
                 <div class="col-12">
                     
                     <h2 class="mitsu-text font-weight-bold text-center">
                         <span class="">
+                                2008 2009 2010 <br>
                                 Mitsubishi Lancer Catalytic Converter <br>
                                 2.0L & 2.4L Two Wheel Drive
                         </span> 
@@ -41,13 +41,13 @@
         <div class="row">
             <div class="col-6">
                     <div class="row justify-content-center">
-                            <div class="col-12 col-lg-4 text-center">
+                            <div class="col text-center">
                                     <img class="img-fluid img-selos" src="./assets/img/epa-img.png">
                             </div>
-                            <div class="col-12 col-lg-4 text-center">
+                            <div class="col text-center">
                                 <img class="img-fluid img-selos " src="./assets/img/5-year-img.png">
                             </div>
-                            <div class="col-12 col-lg-4 text-center  ">
+                            <div class="col text-center  ">
                                 <img class="img-fluid img-selos" src="./assets/img/mad-img.png">
                             </div>
                     </div>
@@ -59,7 +59,7 @@
                             
                     </h6>
                         <h5 class="text-center font-weight-bold">
-                                <span>Important note</span> <br>
+                                <span>Important Information:</span> <br>
                         </h5>
                     <h6>
                             
@@ -133,17 +133,17 @@
             </div>
             
             <div class="row row-space justify-content-center ">
-                <div class="col-5">                       
-                    <img class="img-fluid" src="./assets/img/fce-img.png">                        
+                <div class="col-12">                       
+                        <img class="img-fluid img-100" src="./assets/img/high.png">                   
                 </div>
-                <div class="col-1">
+                <!-- <div class="col-1">
                     <div class="trast">
 
                     </div>
                 </div>
                 <div class="col-5">
-                    <img class="img-fluid img-highest" src="./assets/img/highest-img.png">
-                </div>                
+                    
+                </div>                 -->
             </div>
             <div class="row row-footer">
                     
@@ -169,7 +169,9 @@
 
 
 <style>
-    
+    .img-100{
+        width: 100% !important;
+    }
     .row-footer{
         margin-top:20px
     }
@@ -196,6 +198,8 @@
 
     .mitsu-text{
         color:#58595b;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
     }
 
 .text-first {
@@ -259,7 +263,7 @@ margin-bottom: 12px;
         width: 195px;
 }
     .row.row-mitsubishi {
-    margin-top: 65px;
+    margin-top: 20px;
 }
     .img-fc-logo {
     position: absolute;
@@ -356,6 +360,10 @@ cursor: pointer;
     #ff0000;
 } */
 
+.banner-first{
+    width: 100%;
+}
+
 .bg-danger{
     background-color: #db2121 !important;
 }
@@ -409,6 +417,10 @@ display: block;
     }
 } */
 
+.bg-light{
+    background-color: #ffffff !important;
+}
+
 @media screen and (max-width: 650px) {
 label {
     font-size: 0;
@@ -425,6 +437,33 @@ label:before {
 label {
     padding: 15px;
 }
+
+.h2, h2 {
+    font-size: 0.8rem;
+}
+.row.row-mitsubishi {
+    margin-top: 8px;
+}
+
+.row-selo {
+    margin-top: 22px;
+}
+
+label {
+    margin-left: -3px !important;
+    font-size: 0.5rem !important;
+}
+
+main {
+    padding: 50px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+label {
+    padding: 8px;
+}
+
 /* .img-selos{
     margin-top: 0% !important;
 } */
