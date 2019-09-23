@@ -3,9 +3,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 bg-light">
+<div class="container-fluid">
+  
             <div class="row">
                 
                         <img class="img-fluid banner-first" src="./assets/img/banner.png">
@@ -39,7 +38,7 @@
 <div class="justify-content-center row-selo">
     <div class="col-12">
         <div class="row">
-            <div class="col-12 col-md-6 row-selos-xs">
+            <div class="col-6 row-selos-xs">
                     <div class="row justify-content-center">
                             <div class="col text-center">
                                     <img class="img-fluid img-selos img-100" src="./assets/img/selos.png">
@@ -52,7 +51,7 @@
                             </div> -->
                     </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-6">
                     <h6>
                             Welcome to First Choice Exhaust. We sell a variety of OBDII catalytic converters, manifold converters, front pipes, 
                             and flex pipes. Please do contact us for any inquiries.<br>
@@ -157,11 +156,7 @@
             </div>
             
         </div>
-    </div>
     
-</div>
-
-
 
     </body>
 </html>
@@ -280,9 +275,9 @@ margin-bottom: 12px;
     position: absolute;
     left: -50px;
 }
-    body{
+    /* body{
         background-color: #333;
-    }
+    } */
 main {
 
 padding: 50px;
@@ -421,6 +416,52 @@ display: block;
     background-color: #ffffff !important;
 }
 
+@media (min-width: 698px) and (max-width: 878px){
+    label {
+        margin-left: -5px !important;
+font-size: 1.2rem !important;
+padding: 8px !important;
+}
+
+main {
+    padding: 50px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+}
+
+@media (min-width: 460px) and (max-width: 697px){
+    label {
+        margin-left: -5px !important;
+font-size: 0.8rem !important;
+padding: 8px !important;
+}
+
+main {
+    padding: 50px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+}
+
+@media (min-width: 401px) and (max-width: 459px){
+    label {
+        margin-left: -5px !important;
+font-size: 0.6rem !important;
+padding: 8px !important;
+}
+
+main {
+    padding: 50px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+}
+
+
 @media screen and (max-width: 650px) {
 label {
     font-size: 0;
@@ -452,6 +493,7 @@ label {
 label {
     margin-left: -3px !important;
     font-size: 0.5rem !important;
+    padding: 8px !important;
 }
 
 main {
@@ -460,9 +502,7 @@ main {
     padding: 50px 0px;
 }
 
-label {
-    padding: 8px;
-}
+
 
 .row-selos-xs{
     margin-bottom: 15px;
