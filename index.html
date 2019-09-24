@@ -221,7 +221,7 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     /* background-color: rgba(255, 255, 255, 1); */
-    height: calc(100% - 70px);
+    height: 440px;
     margin-top: 0;
 }
 
@@ -415,7 +415,17 @@ display: block;
 .bg-light{
     background-color: #ffffff !important;
 }
+@media screen and (min-width: 1168px){
+    .section-tab{
+    height: 340px;
+}
+}
 
+@media (min-width: 879px) and (max-width: 1167px){
+    .section-tab{
+    height: 400px;
+}
+}
 @media (min-width: 698px) and (max-width: 878px){
     label {
         margin-left: -5px !important;
@@ -429,7 +439,12 @@ main {
     padding-top: 25px;
 }
 
+.section-tab{
+    height: 430px;
 }
+
+}
+
 
 @media (min-width: 460px) and (max-width: 697px){
     label {
@@ -444,6 +459,16 @@ main {
     padding-top: 25px;
 }
 
+.section-tab{
+    height: 520px;
+}
+
+}
+
+@media (min-width: 472px) and (max-width: 528px){
+    .section-tab{
+    height: 600px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 459px){
@@ -457,6 +482,10 @@ main {
     padding-left: 0px;
     padding-right: 0px;    
     padding-top: 25px;
+}
+
+.section-tab{
+    height: 900px;
 }
 
 }
@@ -473,7 +502,25 @@ label:before {
 /* .img-selos{
     margin-top: 0% !important;
 } */
+
+/* .section-tab{
+    height: 900px;
+} */
 }
+
+@media (min-width: 531px) and (max-width: 650px) {
+    .section-tab{
+    height: 540px;
+}
+}
+
+@media (min-width: 401px) and (max-width: 471px) {
+    .section-tab{
+        height: 820px;
+    }
+}
+
+
 @media screen and (max-width: 400px) {
 label {
     padding: 15px;
@@ -502,7 +549,9 @@ main {
     padding-top: 25px;
 }
 
-
+.section-tab{
+    height: 900px;
+}
 
 .row-selos-xs{
     margin-bottom: 15px;
@@ -512,4 +561,11 @@ main {
     margin-top: 0% !important;
 } */
 }
+
+@media screen and (max-width: 356px) {
+    .section-tab{
+    height: calc(100% - 70px);
+}
+}
+
 </style>
