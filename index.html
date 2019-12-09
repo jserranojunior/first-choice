@@ -7,7 +7,9 @@
   
             <div class="row">
                 
-                        <img class="img-fluid banner-first" src="./assets/img/banner.png">
+                        <div class="col-12">
+                                <img class="img-fluid banner-first" src="https://jserranojunior.github.io/first-choice/assets/img/banner.png">
+                        </div>
                 
             </div>
             <!-- <div class="row bg-dark margin-nav-topo">
@@ -38,10 +40,10 @@
 <div class="justify-content-center row-selo">
     <div class="col-12">
         <div class="row">
-            <div class="col-6 row-selos-xs">
+            <div class="col-xs-12 col-sm-12  col-md-6 col-lg-6 row-selos-xs">
                     <div class="row justify-content-center">
                             <div class="col text-center">
-                                    <img class="img-fluid img-selos img-100" src="./assets/img/selos.png">
+                                    <img class="img-fluid img-selos img-100" src="https://jserranojunior.github.io/first-choice/assets/img/selos.png">
                             </div>
                             <!-- <div class="col text-center">
                                 <img class="img-fluid img-selos " src="./assets/img/5-year-img.png">
@@ -51,7 +53,7 @@
                             </div> -->
                     </div>
             </div>
-            <div class="col-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h6>
                             Welcome to First Choice Exhaust. We sell a variety of OBDII catalytic converters, manifold converters, front pipes, 
                             and flex pipes. Please do contact us for any inquiries.<br>
@@ -133,7 +135,7 @@
             
             <div class="row row-space justify-content-center ">
                 <div class="col-12">                       
-                        <img class="img-fluid img-100" src="./assets/img/high.png">                   
+                        <img class="img-fluid img-100" src="https://jserranojunior.github.io/first-choice/assets/img/high.png">                   
                 </div>
                 <!-- <div class="col-1">
                     <div class="trast">
@@ -164,6 +166,19 @@
 
 
 <style>
+    /* .col-img-banner-bg{
+        background-image: url("https://jserranojunior.github.io/first-choice/assets/img/banner.png");
+        max-width: 100%;
+        height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-bottom:15px;
+    } */
+     
     .img-100{
         width: 100% !important;
     }
@@ -204,11 +219,14 @@
 }
 
 .section-tab {
+   
+    height: calc(100% - 70px);
+
     position: relative;
     top: -9px;
     left: 0%;
     width: 100%;
-    height: 80px;
+   
     /* background: #f8f9fa; */
     padding: 20px;
 
@@ -221,7 +239,7 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     /* background-color: rgba(255, 255, 255, 1); */
-    height: 440px;
+   
     margin-top: 0;
 }
 
@@ -416,15 +434,11 @@ display: block;
     background-color: #ffffff !important;
 }
 @media screen and (min-width: 1168px){
-    .section-tab{
-    height: 340px;
-}
+   
 }
 
 @media (min-width: 879px) and (max-width: 1167px){
-    .section-tab{
-    height: 520px;
-}
+    
 }
 @media (min-width: 698px) and (max-width: 878px){
     label {
@@ -439,9 +453,7 @@ main {
     padding-top: 25px;
 }
 
-.section-tab{
-    height: 430px;
-}
+
 
 }
 
@@ -459,16 +471,15 @@ main {
     padding-top: 25px;
 }
 
-.section-tab{
-    height: 520px;
-}
+
 
 }
 
-@media (min-width: 472px) and (max-width: 528px){
-    .section-tab{
-    height: 600px;
-}
+@media (min-width: 638px) and (max-width: 767px){
+        img.img-fluid.img-selos.img-100 {
+        width: 70% !important;
+        margin-bottom: 30px !important;
+    }
 }
 
 @media (min-width: 401px) and (max-width: 459px){
@@ -484,9 +495,7 @@ main {
     padding-top: 25px;
 }
 
-.section-tab{
-    height: 900px;
-}
+
 
 }
 
@@ -502,22 +511,20 @@ label:before {
 /* .img-selos{
     margin-top: 0% !important;
 } */
+.row-selos-xs{
+    margin-bottom: 25px;
+}
 
-/* .section-tab{
-    height: 900px;
-} */
 }
 
 @media (min-width: 531px) and (max-width: 650px) {
-    .section-tab{
-    height: 540px;
+    .row-selos-xs{
+    margin-bottom: 25px;
 }
+
 }
 
 @media (min-width: 401px) and (max-width: 471px) {
-    .section-tab{
-        height: 820px;
-    }
 }
 
 
@@ -549,9 +556,7 @@ main {
     padding-top: 25px;
 }
 
-.section-tab{
-    height: 900px;
-}
+
 
 .row-selos-xs{
     margin-bottom: 15px;
